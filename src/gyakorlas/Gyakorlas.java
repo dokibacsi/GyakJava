@@ -8,6 +8,10 @@ public class Gyakorlas {
             metodus();
         }
     }
+
+    private static void metodus(){
+    System.out.print(":)");
+    }
     
     private void metodus(){
         System.out.println(":)");
