@@ -2,19 +2,16 @@ package gyakorlas;
 public class Gyakorlas {
     int x;
     public static void main(String[] args) {
+        Gyakorlas gyak = new Gyakorlas();
         for (int i = 0; i < 10; i++) {
         }
         if(true){
-            metodus();
+            gyak.metodus();
         }
     }
 
-    private static void metodus(){
-    System.out.print(":)");
-    }
-    
     private void metodus(){
-        System.out.println(":)");
+    System.out.print(":)");
     }
     
 }
